@@ -6,33 +6,25 @@ const items = [
     top: 'Category',
     options: [
       {
-        link: '/music',
-        name: 'music'
+        link: '/events',
+        name: 'events'
+      },
+      {
+        link: '/mixes',
+        name: 'mixes'
       },
       {
         link: '/video',
         name: 'video'
       },
       {
-        link: '/art',
-        name: 'art'
+        link: '/about',
+        name: 'about'
       },
       {
-        link: '/radio',
-        name: 'radio'
+        link: '/contact',
+        name: 'contact'
       },
-      {
-         link: '/live',
-        name: 'live'
-      },
-      {
-         link: '/nfts',
-        name: 'nfts'
-      },
-      {
-        link: '/merch',
-        name: 'merch'
-      }
     ]
   },
   {
@@ -43,80 +35,26 @@ const items = [
         name: 'Youtube'
       },
       {
-        link: 'https://www.instagram.com/therosecrib/',
+        link: 'https://www.instagram.com/femmifesting/',
         name: 'Instagram'
       },
     ]
   },
-  {
-    top: 'Sister Brands',
-    options: [
-      {
-        link: 'https://www.youtube.com/@therosecrib',
-        name: 'Femmifesting'
-      },
-      {
-        link: 'https://www.instagram.com/therosecrib/',
-        name: 'Art of Digging'
-      },
-    ]
-  },
-  {
-    top: 'Read On',
-    options: [
-      {
-        link: '/music',
-        name: 'APPLE NEWS'
-      },
-      {
-        link: '/video',
-        name: 'FLIPBOARD'
-      },
-      {
-        link: '/art',
-        name: 'GOOGLE NEWS'
-      },
-      {
-        link: '/art',
-        name: 'RSs feed'
-      },
-    ]
-  },
-  {
-    top: 'The Rose Crib Global',
-    options: [
-      {
-        link: '/music',
-        name: 'United States'
-      },
-      {
-        link: '/video',
-        name: 'Japan'
-      },
-      {
-        link: '/art',
-        name: 'United Kingdom'
-      },
-    ]
-  },
+ 
   {
     top: 'Work with us',
     options: [
       {
-        link: '/music',
-        name: 'Advertise'
-      },
-      {
-        link: '/video',
+        link: '/contact',
         name: 'Contact Us'
       },
       {
-        link: '/art',
-        name: 'Submit to radio'
+        link: '/submit',
+        name: 'Submit to perform'
       },
       {
-        link: '/art',
-        name: 'Write for us'
+        link: '/booking',
+        name: 'Booking'
       },
     ]
   }
