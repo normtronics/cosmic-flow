@@ -15,6 +15,10 @@ const options = [
     name: 'mixes'
   },
   {
+    link: '/video',
+    name: 'video'
+  },
+  {
     link: '/about',
     name: 'about'
   },
