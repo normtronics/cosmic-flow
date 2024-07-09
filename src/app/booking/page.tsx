@@ -4,7 +4,9 @@ import styles from './booking.module.css'
 export default function Page() {
   return (
      <div className={styles.container}>
-      <PageHeading title="booking" />
+      <PageHeading 
+        title="booking" 
+      />
     </div>
   )
 }

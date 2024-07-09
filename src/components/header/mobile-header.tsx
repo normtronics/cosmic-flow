@@ -67,7 +67,11 @@ export const MobileHeader = ({ close, isOpen }: { close: () => void, isOpen: boo
         <button className={styles.close} onClick={close}>
           <img src='/icons/close.svg' className={styles.icon}/>
         </button>
-        <h2>FEMMIFESTING</h2>
+        <h2>
+          <Link href='/' onClick={() => close()}>
+            FEMMIFESTING
+          </Link>
+        </h2>
       </div>
       <div className={styles.container}>
         {items.map((item, i) => (
@@ -76,7 +80,7 @@ export const MobileHeader = ({ close, isOpen }: { close: () => void, isOpen: boo
             <ul>
               {item.options.map((option, o) => (
                 <li key={o}>
-                  <Link href={option.link}>
+                  <Link href={option.link} onClick={() => close()}>
                     {option.name}
                   </Link>
                 </li>
