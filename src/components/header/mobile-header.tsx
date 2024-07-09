@@ -60,31 +60,6 @@ const items = [
   }
 ]
 
-const footer = [{
-  name: 'Terms of use',
-  link: '/terms'
-},
-{
-  name: 'Privacy policy',
-  link: '/terms'
-},{
-  name: 'Do not share my personal information',
-  link: '/terms'
-},{
-  name: 'California policy',
-  link: '/terms'
-},{
-  name: 'Site map',
-  link: '/terms'
-},{
-  name: 'Public Notice',
-  link: '/terms'
-},
-{
-  name: 'Accessibility Statement',
-  link: '/terms'
-}]
-
 export const MobileHeader = ({ close, isOpen }: { close: () => void, isOpen: boolean}) => {
   return (
     <div className={`${styles.mobileMenu} ${isOpen ? styles.mobileMenuOpen : ''}`}>
@@ -109,17 +84,6 @@ export const MobileHeader = ({ close, isOpen }: { close: () => void, isOpen: boo
             </ul>
           </div>
         ))}
-      </div>
-      <div className={styles.footer}>
-        <ul>
-          {footer.map((f, i) => (
-            <li key={i}>
-              <Link href={f.link}>
-                {f.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
       </div>
     </div>
   )

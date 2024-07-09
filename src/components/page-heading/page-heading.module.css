@@ -18,3 +18,8 @@
   -ms-word-wrap: break-word;
   word-wrap: break-word;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+}

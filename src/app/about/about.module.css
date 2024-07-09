@@ -1,0 +1,79 @@
+.about {
+  max-width: 700px;
+  margin: auto;
+  font-size: 20px;
+  line-height: 50px;
+
+  @media only screen and (max-width: 768px) {
+    padding: 16px;
+  }
+}
+
+.team {
+  padding-top: 48px;
+  max-width: 700px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.team h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+
+  @media only screen and (max-width: 768px) {
+    padding: 16px;
+  }
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+   @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+}
+
+.name {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+  font-weight: bold;
+}
+
+.role {
+  padding: 8px 0;
+}
+
+.image {
+  border-radius: 16px;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  padding-top: 32px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.teamCard {
+  padding-bottom: 32px;
+}
