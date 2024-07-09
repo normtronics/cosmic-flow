@@ -84,7 +84,7 @@ const getSocialIcon  = (icon: string, link: string) => {
 
 }
 
-export default function Page() {
+export default async function Page() {
   return (
      <div className={styles.container}>
       <PageHeading 
