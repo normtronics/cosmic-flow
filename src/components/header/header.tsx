@@ -58,7 +58,7 @@ export const Header = () => {
     <header className={styles.header}>
       <div className={styles.inner}>
         <div className={styles.logo}>
-          <a href="/" className={styles.menuLogo}>Femmifesting</a>
+          <a href="/" className={styles.menuLogo}>In the cosmic flow</a>
         </div>
         <nav className={styles.nav}>
           <ul className={styles.menuList}>
