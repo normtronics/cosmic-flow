@@ -8,7 +8,6 @@ import { useState } from "react";
 export const Events = () => {
   const [activeTab, setActiveTab] = useState<string>('upcoming');
   const { data } = useSuspenseQuery<any>(eventQuery);
-  console.log('data', data)
 
   const tabPressed = (tab: string) => {
     setActiveTab(tab)
