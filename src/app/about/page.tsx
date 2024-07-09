@@ -4,6 +4,8 @@ import { faInstagram, faTwitter, faTiktok, faPinterest, faYoutube, faSafari } fr
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
 
+export const dynamic = 'force-dynamic'
+
 const team = [{
   image: 'ruby2.jpg',
   name: 'Peshak پشک',
