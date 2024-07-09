@@ -59,37 +59,6 @@ const items = [
   }
 ]
 
-const footer = [
-  {
-    name: 'Terms of use',
-    link: '/terms'
-  },
-  {
-    name: 'Privacy policy',
-    link: '/terms'
-  },{
-    name: 'Do not share my personal information',
-    link: '/terms'
-  },{
-    name: 'California policy',
-    link: '/terms'
-  },{
-    name: 'Site map',
-    link: '/terms'
-  },{
-    name: 'Public Notice',
-    link: '/terms'
-  },
-  {
-    name: 'Accessibility Statement',
-    link: '/terms'
-  },
-  {
-    name: '2024 The Rose Crib',
-    link: ''
-  }
-]
-
 export const Footer = () => {
   return (
     <div>
@@ -109,17 +78,6 @@ export const Footer = () => {
               </ul>
             </div>
           ))}
-        </div>
-        <div className={styles.footer}>
-          <ul>
-            {footer.map((f, i) => (
-              <li key={i}>
-                <Link href={f.link}>
-                  {f.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
         </div>
       </div>
     </div>
