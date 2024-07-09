@@ -1,0 +1,16 @@
+.wrapper {
+  max-width: 1400px;
+  margin: auto;
+  padding-bottom: 32px;
+}
+
+.heading {
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 48px;
+  line-height: 1.316em;
+  /* margin: 25px 0; */
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}

@@ -24,14 +24,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <MuxPlayer
-        streamType="on-demand"
-        playbackId="vBJWS01gN01NAqniv4LoSk602UqjuvdZ399pxhhY6WkDaY"
-        metadataVideoTitle="Placeholder (optional)"
-        metadataViewerUserId="Placeholder (optional)"
-        primaryColor="#FFFFFF"
-        secondaryColor="#000000"
-      />
     </main>
   );
 }

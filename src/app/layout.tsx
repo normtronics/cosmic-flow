@@ -4,6 +4,7 @@ import "./globals.css";
 import { impact } from "@/fonts/fonts";
 import { Header } from "@/components/header/header";
 import { ApolloWrapper } from "@/apollo/apollo-wrapper";
+import { Footer } from "@/components/footer/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         <ApolloWrapper>
           <Header />
           {children}
+          <Footer />
         </ApolloWrapper>
       </body>
     </html>

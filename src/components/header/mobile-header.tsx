@@ -92,7 +92,7 @@ export const MobileHeader = ({ close, isOpen }: { close: () => void, isOpen: boo
         <button className={styles.close} onClick={close}>
           <img src='/icons/close.svg' className={styles.icon}/>
         </button>
-        <h2>THE ROSE CRIB</h2>
+        <h2>FEMMIFESTING</h2>
       </div>
       <div className={styles.container}>
         {items.map((item, i) => (
