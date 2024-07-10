@@ -11,7 +11,7 @@ export const DJS = () => {
       {data.djs.map((d: any, i: number) => (
         <div className={styles.card} key={i}>
           <div className={styles.imageContainer}>
-             <img src={d.image.url} />
+             <img src={d.image.url} className={styles.image}/>
           </div>
           <div className={styles.info}>
             <div className={styles.name}>{d.name}</div>
