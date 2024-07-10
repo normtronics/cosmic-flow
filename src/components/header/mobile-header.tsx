@@ -69,7 +69,7 @@ export const MobileHeader = ({ close, isOpen }: { close: () => void, isOpen: boo
         </button>
         <h2>
           <Link href='/' onClick={() => close()}>
-            FEMMIFESTING
+            IN THE COSMIC FLOW
           </Link>
         </h2>
       </div>

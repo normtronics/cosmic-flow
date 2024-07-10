@@ -10,6 +10,7 @@ export default async function Page() {
       <div className={styles.grid}>
 
         <div className={styles.video}>
+          <h2>IN THE COSMIC FLOW VOL.2</h2>
           <MuxPlayer
             streamType="on-demand"
             playbackId="vBJWS01gN01NAqniv4LoSk602UqjuvdZ399pxhhY6WkDaY"
@@ -21,6 +22,7 @@ export default async function Page() {
         </div>
 
         <div className={styles.video}>
+          <h2>IN THE COSMIC FLOW VOL.1</h2>
           <MuxPlayer
             streamType="on-demand"
             playbackId="qqEzAy00cFQIQU02xcX02i1vFMskXUkwQ91HTBxfQ60201uc"

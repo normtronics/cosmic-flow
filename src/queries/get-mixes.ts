@@ -1,17 +1,16 @@
 import { gql } from "@apollo/client";
 
-export const eventQuery = gql`
-  query Events {
-    events {
+export const mixQuery = gql`
+  query mixesQuery {
+    mixes {
       id
       slug
       stage
-      name
+      title
       date
-      time
       description
-      location
-      rsvplink
+      embed
+      url
       publishedAt
       createdAt
       image {

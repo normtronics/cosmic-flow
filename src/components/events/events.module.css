@@ -9,8 +9,9 @@
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   margin-bottom: 64px;
+  gap: 20px;
 }
 
 .tab {
@@ -47,6 +48,7 @@
 .info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .imageContainer {
@@ -61,4 +63,9 @@
 
 .date {
   padding-bottom: 4px;
+}
+
+.location {
+  padding-bottom: 16px;
+  font-style: italic;
 }

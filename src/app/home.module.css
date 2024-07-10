@@ -1,13 +1,15 @@
 .main {
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .topContainer {
   height: 100vh;
-  background-image: url('/spirals.png');
+  /* background-image: url('/spirals.png');
   background-size: contain;
-  background-repeat: no-repeat;
-  margin-bottom: 32px;
+  background-repeat: no-repeat; */
+  /* margin-bottom: 128px; */
+  display: flex;
+  justify-content: center;
 
   @media only screen and (max-width: 768px) {
     height: auto;
@@ -46,13 +48,49 @@
   }
 }
 
+.headerContainer {
+  display: flex;
+}
+
 .headerContainer h1 {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 175px;
   /* color: #a88eb1; */
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 
    @media only screen and (max-width: 768px) {
      font-size: 90px;
   }
+}
+
+.femmifesting {
+  font-size: 50px;
+  font-style: italic;
+  color: #a88eb1;
+}
+
+.video {
+  position: absolute;
+  right: 0;
+  top: 64px;
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  object-fit: cover;
+}
+
+
+.videoOverlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  top: 64px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
 }

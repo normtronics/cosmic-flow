@@ -95,11 +95,24 @@ export default async function Page() {
       />
 
       <div className={styles.about}>
-        “In The Cosmic Flow” is a vinyl party that highlights DJ’s 
-        that identify with the Divine Feminine. 
-        The dance party blends disco, house, hip-hop, rnb, 
-        and international music to create a vibe that will 
-        get you groovin and connected to your highest self.
+       “In The Cosmic Flow,” a Femmifesting® event,  
+       is a vinyl party that highlights DJ’s that 
+       identify with the Divine Feminine. The dance 
+       party blends disco, house, hip-hop, rnb, and 
+       international music to create a vibe that will 
+       get you groovin and connected to your highest self.
+      </div>
+
+      <div className={styles.about}>
+        Femmifesting® is a brand creating 
+        experiences and apparel to help you 
+        tap into your divine feminine energy 
+        and live in alignment with your most 
+        authentic self. Ditch the hustle, embrace 
+        harmony. The universe wants to give you what 
+        you want. You just need to align with its cosmic flow. 
+        Trust your intuition and let your desires flow effortlessly towards you. 
+        Femmifesting® supports you in receiving what you desire and embracing your true, powerful self.
       </div>
 
       <div className={styles.team}>
