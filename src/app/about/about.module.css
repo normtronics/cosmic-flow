@@ -10,6 +10,10 @@
   }
 }
 
+.about a {
+  text-decoration: underline;
+}
+
 .team {
   padding-top: 48px;
   max-width: 700px;
@@ -80,4 +84,8 @@
 
 .teamCard {
   padding-bottom: 32px;
+}
+
+.teamCard a {
+  text-decoration: underline;
 }

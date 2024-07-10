@@ -14,8 +14,8 @@ const items = [
         name: 'mixes'
       },
       {
-        link: '/artists',
-        name: 'artists'
+        link: '/djs',
+        name: 'djs'
       },
       {
         link: '/video',

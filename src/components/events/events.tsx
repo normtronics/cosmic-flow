@@ -35,7 +35,8 @@ export const Events = () => {
         </button>
       </div>
       {filterEvents(activeTab).map((e: any, i: number) => (
-        <Link href={`events/${e.slug}`} className={styles.event} key={i}>
+        // <Link href={`events/${e.slug}`} className={styles.event} key={i}>
+        <div className={styles.event} key={i}>
           <div className={styles.imageContainer}>
             <img src={e.image.url} className={styles.image}/>
           </div>
@@ -49,7 +50,8 @@ export const Events = () => {
               {e.description}
             </div>
           </div>
-        </Link>
+        </div>
+        // </Link>
       ))}
       {filterEvents(activeTab).length === 0 && (
         <div>No Upcoming Events</div>

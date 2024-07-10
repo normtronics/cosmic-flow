@@ -8,7 +8,7 @@ const team = [{
   image: 'ruby2.jpg',
   name: 'Peshak پشک',
   role: 'Co-Founder',
-  bio: 'The DJ alias of singer and producer Ruby Mountain, blends global influences together sharing the energy of the Bay Area, the soul of Detroit, the rhythms of South Asia, and the pulse of London, giving soulful bounce and infectious house sets',
+  bio: '<div>The DJ alias of singer and producer <a href="https://www.rubymountain.xyz/">Ruby Mountain</a>, blends global influences together sharing the energy of the Bay Area, the soul of Detroit, the rhythms of South Asia, and the pulse of London, giving soulful bounce and infectious house sets<div>',
   socials: [
     {
       type: 'IG',
@@ -36,7 +36,7 @@ const team = [{
   image: 'ruby.jpg',
   name: 'Diosa Discoteka',
   role: 'Co-Founder',
-  bio: 'She is a multifaceted artist from Boyle Heights, California. As a DJ she hopes to inspire authenticity and connection to oneself with her selection of music that is often funk, soul and disco.',
+  bio: '<div>She is a multifaceted artist from Boyle Heights, California. As a DJ she hopes to inspire authenticity and connection to oneself with her selection of music that is often funk, soul and disco.</div>',
   socials: [
     {
       type: 'IG',
@@ -120,15 +120,14 @@ export default async function Page() {
       </div>
 
       <div className={styles.about}>
-        <a href='https://femmifesting.com/'>Femmifesting®</a>is a brand creating 
+        <a href='https://femmifesting.com/'>Femmifesting®</a> is a brand creating 
         experiences and apparel to help you 
         tap into your divine feminine energy 
         and live in alignment with your most 
         authentic self. Ditch the hustle, embrace 
         harmony. The universe wants to give you what 
         you want. You just need to align with its cosmic flow. 
-        Trust your intuition and let your desires flow effortlessly towards you. 
-        <a href='https://femmifesting.com/'>Femmifesting®</a> supports you in receiving what you desire and embracing your true, powerful self.
+        Trust your intuition and let your desires flow effortlessly towards you. <a href='https://femmifesting.com/'>Femmifesting®</a> supports you in receiving what you desire and embracing your true, powerful self.
       </div>
 
       <div className={styles.team}>
@@ -140,7 +139,7 @@ export default async function Page() {
               <img src={t.image} className={styles.image}/>
               <div className={styles.name}>{t.name}</div>
               <div className={styles.role}>{t.role}</div>
-              <div className={styles.bio}>{t.bio}</div>
+              <div className={styles.bio} dangerouslySetInnerHTML={{ __html: t.bio }} />
               <div className={styles.socials}>
                 {t.socials.map( (s, i) => (
                   <div className={styles.icon} key={i}>

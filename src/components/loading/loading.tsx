@@ -11,6 +11,7 @@ export const Loading = () => {
         size={150}
         aria-label="Loading Spinner"
         data-testid="loader"
+        color="#ffffff"
       />
     </div>
   )
