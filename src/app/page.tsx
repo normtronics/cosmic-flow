@@ -5,7 +5,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.videoOverlay}></div>
       <video autoPlay muted loop className={styles.video}>
-        <source src="/djclip.mp4" type="video/mp4" />
+        <source src="https://rosecribradio.sfo2.cdn.digitaloceanspaces.com/cms/djclip.mp4" type="video/mp4" />
       </video>
       <div className={styles.topContainer}>
         <div className={styles.wrapper}>
