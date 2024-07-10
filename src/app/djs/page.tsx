@@ -9,6 +9,9 @@ export default async function Page() {
     <div className={styles.container}>
       <PageHeading 
         title="djs" 
+        style={{
+          maxWidth: 1200
+        }}
       />
       <DJS />
     </div>
