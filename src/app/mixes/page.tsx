@@ -4,7 +4,9 @@ import { Suspense } from 'react'
 import { Mixes } from '@/components/mixes/mixes'
 import { Loading } from '@/components/loading/loading'
 
-export default function Page() {
+export const dynamic = 'force-dynamic'
+
+export default async function Page() {
   return (
     <div className={styles.container}>
       <PageHeading 
