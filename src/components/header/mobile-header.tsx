@@ -9,10 +9,10 @@ const items = [
         link: '/events',
         name: 'events'
       },
-      {
-        link: '/mixes',
-        name: 'mixes'
-      },
+      // {
+      //   link: '/mixes',
+      //   name: 'mixes'
+      // },
       {
         link: '/djs',
         name: 'djs'
