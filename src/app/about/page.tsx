@@ -1,6 +1,6 @@
 import { PageHeading } from '@/components/page-heading/page-heading'
 import styles from './about.module.css'
-import { faInstagram, faTwitter, faTiktok, faPinterest, faYoutube, faSafari } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faTwitter, faTiktok, faYoutube, faSafari, faMixcloud } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
 
@@ -8,7 +8,7 @@ const team = [{
   image: 'ruby2.jpg',
   name: 'Peshak پشک',
   role: 'Co-Founder',
-  bio: 'The DJ alias of artist Ruby Mountain, blends global influences together sharing the energy of the Bay Area, the soul of Detroit, the rhythms of South Asia, and the pulse of London, giving soulful bounce and infectious house sets',
+  bio: 'The DJ alias of singer and producer Ruby Mountain, blends global influences together sharing the energy of the Bay Area, the soul of Detroit, the rhythms of South Asia, and the pulse of London, giving soulful bounce and infectious house sets',
   socials: [
     {
       type: 'IG',
@@ -25,7 +25,11 @@ const team = [{
     {
       type: 'TT',
       link: 'https://www.tiktok.com/@rubymountain'
-    }
+    },
+    {
+      type: 'MC',
+      link: 'https://www.mixcloud.com/therosecrib/'
+    },
   ]
 },
 {
@@ -37,6 +41,10 @@ const team = [{
     {
       type: 'IG',
       link: 'https://www.instagram.com/chuuuchix/'
+    },
+    {
+      type: 'MC',
+      link: 'https://www.mixcloud.com/therosecrib/'
     },
   ]
 }]
@@ -82,6 +90,14 @@ const getSocialIcon  = (icon: string, link: string) => {
     )
   }
 
+  if(icon === 'MC') {
+    return (
+      <Link href={`${link}`} target='_blank' rel="noreferrer">
+        <FontAwesomeIcon icon={faMixcloud} size="2xl"/>
+      </Link>
+    )
+  }
+
 }
 
 export default async function Page() {
@@ -95,7 +111,7 @@ export default async function Page() {
       />
 
       <div className={styles.about}>
-       “In The Cosmic Flow,” a Femmifesting® event,  
+       “In The Cosmic Flow,” a <a href='https://femmifesting.com/'>Femmifesting®</a> event,  
        is a vinyl party that highlights DJ’s that 
        identify with the Divine Feminine. The dance 
        party blends disco, house, hip-hop, rnb, and 
@@ -104,7 +120,7 @@ export default async function Page() {
       </div>
 
       <div className={styles.about}>
-        Femmifesting® is a brand creating 
+        <a href='https://femmifesting.com/'>Femmifesting®</a>is a brand creating 
         experiences and apparel to help you 
         tap into your divine feminine energy 
         and live in alignment with your most 
@@ -112,7 +128,7 @@ export default async function Page() {
         harmony. The universe wants to give you what 
         you want. You just need to align with its cosmic flow. 
         Trust your intuition and let your desires flow effortlessly towards you. 
-        Femmifesting® supports you in receiving what you desire and embracing your true, powerful self.
+        <a href='https://femmifesting.com/'>Femmifesting®</a> supports you in receiving what you desire and embracing your true, powerful self.
       </div>
 
       <div className={styles.team}>
