@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.videoOverlay}></div>
-      <video autoPlay muted loop playsInline className={styles.video}>
+      <video autoPlay muted loop playsInline webkit-playsInline={true} className={styles.video}>
         <source src="https://rosecribradio.sfo2.cdn.digitaloceanspaces.com/cms/djclip.mp4" type="video/mp4" />
       </video>
       <div className={styles.topContainer}>
