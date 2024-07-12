@@ -30,7 +30,7 @@ const team = [{
     },
     {
       type: 'MC',
-      link: 'https://www.mixcloud.com/therosecrib/'
+      link: 'https://www.mixcloud.com/Peshak'
     },
   ]
 },
@@ -44,10 +44,10 @@ const team = [{
       type: 'IG',
       link: 'https://www.instagram.com/chuuuchix/'
     },
-    {
-      type: 'MC',
-      link: 'https://www.mixcloud.com/therosecrib/'
-    },
+    // {
+    //   type: 'MC',
+    //   link: 'https://www.mixcloud.com/therosecrib/'
+    // },
   ]
 }]
 
