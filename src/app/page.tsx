@@ -11,7 +11,7 @@ export default function Home() {
         <div className={styles.wrapper}>
           <div className={styles.headerContainer}>
             <h1>
-              <div className={styles.femmifesting}>Femmifesting Presents</div>
+              <div className={styles.femmifesting}>Femmifesting® Presents</div>
               <div>In the</div>
               <div>cosmic</div>
               <div>flow</div>

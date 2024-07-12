@@ -7,7 +7,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 export const Events = () => {
-  const [activeTab, setActiveTab] = useState<string>('upcoming');
+  const [activeTab, setActiveTab] = useState<string>('past');
   const { data } = useSuspenseQuery<any>(eventQuery);
 
   const tabPressed = (tab: string) => {

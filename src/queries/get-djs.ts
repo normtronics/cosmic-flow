@@ -6,6 +6,7 @@ export const djQuery = gql`
       id
       slug
       name
+      instagram
       image {
         url
       }

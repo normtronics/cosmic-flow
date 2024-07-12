@@ -8,7 +8,7 @@ export default async function Page() {
   return (
     <div className={styles.container}>
       <PageHeading 
-        title="djs" 
+        title="past djs" 
         style={{
           maxWidth: 1200
         }}
