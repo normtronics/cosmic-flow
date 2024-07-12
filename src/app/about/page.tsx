@@ -3,6 +3,8 @@ import styles from './about.module.css'
 import { faInstagram, faTwitter, faTiktok, faYoutube, faSafari, faMixcloud } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
+import { Metadata } from 'next'
+import { getMetadata } from '@/util/get-metadata'
 
 const team = [{
   image: 'ruby2.jpg',
@@ -99,6 +101,8 @@ const getSocialIcon  = (icon: string, link: string) => {
   }
 
 }
+
+export const metadata: Metadata = getMetadata('In The Cosmic Flow | About', 'ruby2.jpg', 'In The Cosmic Flow | About', 'about' )
 
 export default async function Page() {
   return (

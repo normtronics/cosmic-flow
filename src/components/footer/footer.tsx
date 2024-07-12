@@ -14,10 +14,6 @@ const items = [
         name: 'djs'
       },
       {
-        link: '/mixes',
-        name: 'mixes'
-      },
-      {
         link: '/video',
         name: 'video'
       },
