@@ -1,6 +1,8 @@
 import { PageHeading } from '@/components/page-heading/page-heading'
 import styles from './djs.module.css'
 import { DJS } from '@/components/djs/djs'
+import { Suspense } from 'react'
+import { Loading } from '@/components/loading/loading'
 
 export const dynamic = 'force-dynamic'
 
@@ -13,7 +15,9 @@ export default async function Page() {
           maxWidth: 1200
         }}
       />
-      <DJS />
+      <Suspense fallback={<Loading />}>
+        <DJS />
+      </Suspense>
     </div>
   )
 }

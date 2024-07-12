@@ -10,6 +10,10 @@ const items = [
         name: 'events'
       },
       {
+        link: '/djs',
+        name: 'djs'
+      },
+      {
         link: '/mixes',
         name: 'mixes'
       },
