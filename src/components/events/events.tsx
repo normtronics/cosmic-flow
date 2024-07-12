@@ -44,7 +44,7 @@ export const Events = () => {
             <div className={styles.title}>
               {e.name}
             </div>
-            <div className={styles.date}>{new Date(e.time).toLocaleString()}</div>
+            <div className={styles.date}>{new Date(e.time).toDateString()}</div>
             <div className={styles.location}>{e.location}</div>
             <div className={styles.description}>
               {e.description}

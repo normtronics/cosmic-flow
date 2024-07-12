@@ -3,6 +3,9 @@
 import { djQuery } from "@/queries/get-djs";
 import { useSuspenseQuery } from "@apollo/client";
 import styles from './djs.module.css'
+import Link from "next/link";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const DJS = () => {
   const { data } = useSuspenseQuery<any>(djQuery);
@@ -15,8 +18,10 @@ export const DJS = () => {
           </div>
           <div className={styles.info}>
             <div className={styles.name}>{d.name}</div>
+            <Link href={d.instagram} target='_blank' rel="noreferrer">
+              <FontAwesomeIcon icon={faInstagram} size="2xl"/>
+            </Link>
           </div>
-          
         </div>
       ))}
     </div>
