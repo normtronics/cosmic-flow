@@ -9,10 +9,6 @@ const items = [
         link: '/events',
         name: 'events'
       },
-     {
-        link: '/djs',
-        name: 'djs'
-      },
       {
         link: '/djs',
         name: 'djs'
