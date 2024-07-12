@@ -70,6 +70,10 @@
   font-size: 50px;
   font-style: italic;
   color: #a88eb1;
+
+   @media only screen and (max-width: 768px) {
+    font-size: 40px;
+  }
 }
 
 .video {
