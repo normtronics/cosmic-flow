@@ -51,14 +51,6 @@ const items = [
         link: '/contact',
         name: 'Contact Us'
       },
-      {
-        link: '/submit',
-        name: 'Submit to perform'
-      },
-      {
-        link: '/booking',
-        name: 'Booking'
-      },
     ]
   }
 ]
