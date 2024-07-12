@@ -130,8 +130,16 @@ export default async function Page() {
         Trust your intuition and let your desires flow effortlessly towards you. <a href='https://femmifesting.com/'>Femmifesting®</a> supports you in receiving what you desire and embracing your true, powerful self.
       </div>
 
+      <div className={styles.about}>
+        Every party we build an altar. Good vibes flow with our intentions and fire beats into the cosmos.
+        <div className={styles.teamGrid}>
+          <img className={styles.image} src='alter1.jpg' />
+          <img className={styles.image} src='alter2.jpg' />
+        </div>
+      </div>
+
       <div className={styles.team}>
-        <h2>The Team</h2>
+        <h2>IN THE COSMIC FLOW FOUNDERS</h2>
 
         <div className={styles.teamGrid}>
           {team.map((t, index) => (

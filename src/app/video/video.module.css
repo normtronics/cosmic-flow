@@ -26,3 +26,25 @@
   margin-top: 8px;
   margin-bottom: 8px;
 }
+
+.title {
+  font-size: 16px;
+}
+
+.title a {
+  text-decoration: underline;
+}
+
+.djs {
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.location  {
+  font-size: 12px;
+}
+
+.date {
+  font-size: 12px;
+}
