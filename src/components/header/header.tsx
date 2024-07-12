@@ -7,6 +7,10 @@ import { MobileHeader } from './mobile-header';
 
 const options = [
   {
+    link: '/video',
+    name: 'video'
+  },
+  {
     link: '/events',
     name: 'events'
   },
@@ -17,10 +21,6 @@ const options = [
   {
     link: '/djs',
     name: 'djs'
-  },
-  {
-    link: '/video',
-    name: 'video'
   },
   {
     link: '/about',

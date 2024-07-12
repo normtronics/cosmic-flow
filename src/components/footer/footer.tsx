@@ -6,16 +6,16 @@ const items = [
     top: 'Category',
     options: [
       {
+        link: '/video',
+        name: 'video'
+      },
+      {
         link: '/events',
         name: 'events'
       },
       {
         link: '/djs',
         name: 'djs'
-      },
-      {
-        link: '/video',
-        name: 'video'
       },
       {
         link: '/about',
