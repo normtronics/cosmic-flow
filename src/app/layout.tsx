@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "./globals.css";
 import { Header } from "@/components/header/header";
 import { ApolloWrapper } from "@/apollo/apollo-wrapper";
 import { Footer } from "@/components/footer/footer";
 import { getMetadata } from "@/util/get-metadata";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import "./globals.css";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["100", "400", "500", "700", "800", "900"]  })
 

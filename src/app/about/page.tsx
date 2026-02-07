@@ -37,7 +37,7 @@ const team = [{
 {
   image: 'ruby.jpg',
   name: 'Diosa Discoteka',
-  role: 'Co-Founder',
+  role: 'Collaborator',
   bio: '<div>She is a multifaceted artist from Boyle Heights, California. As a DJ she hopes to inspire authenticity and connection to oneself with her selection of music that is often funk, soul and disco.</div>',
   socials: [
     {
