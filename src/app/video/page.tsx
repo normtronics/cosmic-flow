@@ -22,17 +22,24 @@ export default async function Page() {
             <div className={styles.location}>The Stowaway, Rio Room, Los Angeles</div>
             <div className={styles.date}>July.3.2024</div>
           </div>
-          <MuxPlayer
+          {/* <MuxPlayer
             streamType="on-demand"
             playbackId="vBJWS01gN01NAqniv4LoSk602UqjuvdZ399pxhhY6WkDaY"
             metadataVideoTitle="Placeholder (optional)"
             metadataViewerUserId="Placeholder (optional)"
             primaryColor="#FFFFFF"
             secondaryColor="#000000"
+          /> */}
+          <video 
+            src='https://lbpygnszrl4gig7i.public.blob.vercel-storage.com/video/2024-07-03_20-32-33.mp4' 
+            controls 
+            playsInline 
+            className={styles.videoPlayer}
+            preload="metadata"
           />
         </div>
 
-        <div className={styles.video}>
+        {/* <div className={styles.video}>
           <h2>IN THE COSMIC FLOW VOL. 1</h2>
           <div className={styles.details}>
             <div className={styles.title}>Live stream @ The Rose Crib</div>
@@ -48,7 +55,7 @@ export default async function Page() {
             primaryColor="#FFFFFF"
             secondaryColor="#000000"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   )
